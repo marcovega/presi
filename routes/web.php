@@ -1,6 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
+use LDAP\Result;
+use Longman\TelegramBot\Entities\Update;
+use Longman\TelegramBot\Telegram;
 
 /*
 |--------------------------------------------------------------------------
